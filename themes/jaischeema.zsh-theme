@@ -1,6 +1,7 @@
 # jaischeema.zsh-theme
 
-PROMPT='%{$fg_bold[magenta]%}%m%{$reset_color%} at %{$fg_bold[green]%}%~%{$reset_color%} %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}% %{$reset_color%}%{$fg[red]%}❯%{$reset_color%} '
+PROMPT='%{$fg_bold[blue]%}%m%{$reset_color%} at %{$fg_bold[green]%}%~%{$reset_color%} %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}% %{$reset_color%}%{$fg[red]%}  
+└❯ %{$reset_color%} '
 RPROMPT='$(ruby_prompt_info)'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="±(%{$fg[red]%}"
